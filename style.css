@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+@media (max-width:1276px) {
+    html{
+        font-size: 50%;
+    }
+}
+
+body{
+    font-family: "poppins", sans-serif;
+    font-size: 1.6rem;
+}
+.primary-btn{
+    background-color: #059669;
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 7px;
+    text-decoration: none;
+}
+.logo-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid #e5e7eb ;
+}
+@media (max-width:700px){
+    .nav-wrapper{
+        display: none;
+    }
+}
+.nav-items{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+.nav-items a{
+    text-decoration: none;
+    color: #6b7280;
+}
+.logo-icon{
+    font-size: 3rem;
+    color: #059669;
+}
+
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 2rem;    
+}
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    flex-basis: 50%;
+}
+
+.hero-text{
+    background-color: #e5e7eb;
+    width: fit-content;
+    padding: 2px 1rem;
+    font-weight: 50rem;
+    border-radius: 1rem;
+}
+
+@media(max-width:400px) {
+    .hero-text{
+        font-size: 1rem;
+    }
+}
+.hero-header{
+    font-size: 5rem;
+    font-weight: 80rem;
+}
+
+@media (max-width:879px) {
+    .hero-header{
+        font-size: 2rem;
+    }
+}
+.hero-paragraph{
+    color: #4b5563;
+}
+.hero-lists{
+    list-style: none;
+    color: #4b5563;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+}
+.hero-list{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.hero-lists i{
+    color: #059669;
+}
+.btn-wrapper{
+    display: flex;
+    gap: 1rem; 
+    flex-wrap: wrap;
+}
+.outlined-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid  #e5e7eb;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.hero-image{
+    width: 60rem;
+    height: 50rem;
+    border-radius: 1rem;
+}
+
+@media (max-width:959px) {
+    .hero-image{
+        width: 50rem;
+        height: 40rem;
+    }
+}
+
+@media (max-width:760px) {
+    .hero-image-wrapper{
+        display: none;
+    }
+
+    .hero-container{
+        flex-basis: 100%;
+    }
+}
+
+.how-it-works-container{
+    background-color: #e6fff7;
+    padding: 5rem 2rem;
+}
+
+.how-it-works{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.how-it-works h1{
+    font-size: 3rem;
+    font-weight: 30rem;
+}
+
+.how-it-works p{
+    color:#4b5563;
+}
+
+.how-it-works-card-container{
+    display: flex;
+    margin-top: 3rem;
+    gap: 3rem;
+    padding: 3rem 1rem;
+}
+
+@media(max-width:630px) {
+    .how-it-works-card-container{
+        flex-direction: column;
+    }
+}
+
+.how-it-works-card{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 3rem 1rem; 
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+.everything-you-need-container{
+    margin-top: 5rem;
+}
+
+.everything-you-need-title{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.everything-you-need-card-container{
+    padding: 5rem 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+@media( max-width:630px) {
+    .everything-you-need-card-container{
+        flex-direction: column;
+    }
+}
+
+.everything-you-need-card{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 3rem; 
+    background-color: #fff;
+    border-radius: 1rem;
+    border: 1px solid #e5e7eb;
+}
+.everything-you-need-card h2{
+    font-size: 2rem;
+}
+
+.everything-you-need-card p{
+    color: #6b7280;
+    padding-top: 1rem;
+}
+
+/* .card-list{
+    list-style: none;
+    color: #6b7280;
+} */
+
+.simplify-your-shop{
+    background-color: #e6fff7;
+    padding: 5rem 1.5rem;
+}
+
+.simplify-your-shop-container{
+  background-color: #059669;
+  padding: 5rem 2rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.simplify-your-shop-container h1{
+    font-weight: 5rem;
+    color: #fff;
+}
+.simplify-your-shop-container p{
+    color: white;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+    border-top: 1px solid #e6fff7;
+}
