@@ -201,6 +201,16 @@ body{
     flex-direction: column;
     gap: 1rem;
 }
+
+@media(max-width:400px) {
+    .everything-header{
+        font-size: 3rem;
+        font-weight: 2rem;
+    }
+    .everything-paragraph{
+        font-size: 1.5rem;
+    }
+}
 .everything-you-need-card-container{
     padding: 5rem 2rem;
     display: flex;
@@ -248,6 +258,15 @@ body{
   text-align: center;
 }
 
+@media(max-width: 400px) {
+    .simplify-your-shop-header{
+        font-size: 3rem;
+    }
+    .simplify-your-shop-text{
+        font-size: 1.5rem;
+    }
+}
+
 .simplify-your-shop-container h1{
     font-weight: 5rem;
     color: #fff;
@@ -260,4 +279,11 @@ body{
     justify-content: space-between;
     padding: 4rem 2rem;
     border-top: 1px solid #e6fff7;
+}
+
+@media(max-width:500px) {
+    .footer-container{
+        flex-direction:column;
+        gap: 10px;
+    }
 }
