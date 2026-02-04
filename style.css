@@ -281,7 +281,7 @@ body{
     border-top: 1px solid #e6fff7;
 }
 
-@media(max-width:500px) {
+@media(max-width:600px) {
     .footer-container{
         flex-direction:column;
         gap: 10px;
